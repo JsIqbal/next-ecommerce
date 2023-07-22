@@ -51,6 +51,7 @@ app/sign-up/[[...sign-up]]/page.tsx
 ```
 
 ---
+* step -2
 
 create store:
 
@@ -75,7 +76,8 @@ create modal-provider.tsx and learn the logic about hydration and dyhydration
 learned : global reusable modal, uses global store
 
 ---
-
+* step -3
+  
 Form, form validate:
 
 react-hook-form and zod
@@ -93,7 +95,8 @@ npx shadcn-ui@latest add input
 ```
 
 ---
-
+* step -4
+  
 install prisma as a dev dependency
 
 ```bash
