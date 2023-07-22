@@ -41,7 +41,8 @@ export const StoreModal = () => {
             setLoading(true);
 
             const response = await axios.post("/api/stores", values);
-            toast.success("success");
+
+            window.location.assign(`/${response.data.id}`); // this will refresh the entire application and rehydrate data from the server or database. IDK
         } catch (err) {
             console.log(err);
             toast.error("error");

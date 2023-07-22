@@ -147,3 +147,33 @@ for troubleshooting more : generate new configuration in planetscale and reconfi
 npx prisma generate
 npx prisma db push
 ```
+
+---
+
+-   step -5
+
+We will create Dashboard compositions and create a layout for it
+
+configure in root composition as well
+
+### most important
+
+\*\*\* Tutorial link : to uderstand the project flow
+
+```link
+https://youtu.be/5miHyP6lExg?t=6939
+```
+
+delte the prisma database records:
+
+```bash
+npx prisma migrate reset
+
+npx prisma generate
+
+npx prisma db push
+```
+
+rehydrations again.
+
+redirect to dashboard after creating a store
