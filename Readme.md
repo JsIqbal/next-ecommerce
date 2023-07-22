@@ -135,3 +135,10 @@ check .env = DATABASE_URL
 create api route
 
 install axios and use it in store-modal
+
+for troubleshooting more : generate new configuration in planetscale and reconfigure the .env url and schema.config. afterwards run this commands:
+
+```bash
+npx prisma generate
+npx prisma db push
+```
