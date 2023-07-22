@@ -90,4 +90,48 @@ add shadcn input:
 npx shadcn-ui@latest add input
 ```
 
-add
+---
+
+install prisma as a dev dependency
+
+```bash
+npm i -D prisma
+npm i @prisma/client
+```
+
+initialize prisma:
+
+```bash
+npx prisma init
+```
+
+create lib for prisma db
+
+setup planetscale
+sign in to planetscale and create a database and wait for initialization
+click connect to your database:
+connect to prisma and copy the .env file and paste it in database url
+copy the shema.prisma from the planetscale and paste it in schema.prisma
+
+configure the schema.prisma and create models
+
+generate the prisma models:
+
+```bash
+npx prisma generate
+```
+
+we can do crud operation with prisma
+
+check if we successfully set up our database string:
+
+```bash
+npx prisma db push
+```
+
+troubleshoot:
+check .env = DATABASE_URL
+
+create api route
+
+install axios and use it in store-modal

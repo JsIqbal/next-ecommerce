@@ -1,0 +1,24 @@
+# Exclude node_modules to avoid copying unnecessary dependencies
+node_modules
+
+# Exclude development-specific files and directories
+.dockerignore
+Dockerfile
+docker-compose.yml
+README.md
+
+# Exclude source files that are not needed in the production build
+src
+pages
+public
+prisma
+tests
+coverage
+.next
+
+# Exclude other development and build-related files
+.eslintignore
+.eslintrc.js
+.prisma/client
+jest.config.js
+package-lock.json
