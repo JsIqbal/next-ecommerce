@@ -73,3 +73,21 @@ create modal-provider.tsx and learn the logic about hydration and dyhydration
 learned : global reusable modal, uses global store
 
 ---
+
+Form, form validate:
+
+react-hook-form and zod
+
+add shadcn form:
+
+```bash
+npx shadcn-ui@latest add form
+```
+
+add shadcn input:
+
+```bash
+npx shadcn-ui@latest add input
+```
+
+add
