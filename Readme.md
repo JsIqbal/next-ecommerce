@@ -47,3 +47,29 @@ create organization routes inside the app folder and the routing system will be 
 ```vscode
 app/sign-up/[[...sign-up]]/page.tsx
 ```
+
+---
+
+create store:
+
+use shadcn:
+
+```bash
+npx shadcn-ui@latest add dialog
+```
+
+add zustand for state management:
+
+```bash
+npm install zustand
+```
+
+create the hooks/use-store-modal.tsx and configure the store for modal
+
+create providers folder in root to access any component or modal from anywhere the project
+
+create modal-provider.tsx and learn the logic about hydration and dyhydration
+
+learned : global reusable modal, uses global store
+
+---
