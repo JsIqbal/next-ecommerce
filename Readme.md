@@ -13,9 +13,9 @@ use app router
 
 ```bash
 $ npx create-next-app@latest next-portfolio --typescript --tailwind --eslint
-√ Would you like to use `src/` directory? ... No / Yes
-√ Would you like to use App Router? (recommended) ... No / Yes
-√ Would you like to customize the default import alias? ... No / Yes
+√ Would you like to use `src/` directory? ... No / Yes = No
+√ Would you like to use App Router? (recommended) ... No / Yes = Yes
+√ Would you like to customize the default import alias? ... No / Yes = No
 ```
 
 after creating the app:
