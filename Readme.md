@@ -11,6 +11,13 @@ npx create-next-app@latest ecommerce-admin --typescript --tailwind --eslint
 do not use src
 use app router
 
+```bash
+$ npx create-next-app@latest next-portfolio --typescript --tailwind --eslint
+√ Would you like to use `src/` directory? ... No / Yes
+√ Would you like to use App Router? (recommended) ... No / Yes
+√ Would you like to customize the default import alias? ... No / Yes
+```
+
 after creating the app:
 
 command :
