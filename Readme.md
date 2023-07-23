@@ -164,9 +164,9 @@ npx prisma db push
 
 -   step -5
 
-We will create Dashboard compositions and create a layout for it
+We will create Dashboard organization and create a layout for it
 
-configure in root composition as well
+configure in root organization as well
 
 ### most important
 
@@ -216,3 +216,17 @@ https://youtu.be/5miHyP6lExg?t=8597
 ```
 
 feel the power of zustand store management and see how the modal is triggered from the navigation + Create Store Button
+
+---
+
+-   Step - 6 : part 1: Add the update settings for store
+
+create settings folder inside dashboard organization and create a page for settings
+
+-   We always have the params in our server components \*
+
+Understanding the flow inside settings-form.tsx:
+
+```link
+https://youtu.be/5miHyP6lExg?t=10717
+```
