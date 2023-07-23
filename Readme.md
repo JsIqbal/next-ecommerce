@@ -1,5 +1,7 @@
 # Complete Documentation of this project!
-* Step -1
+
+-   Step -1
+
 ## create next app
 
 ```bash
@@ -51,7 +53,8 @@ app/sign-up/[[...sign-up]]/page.tsx
 ```
 
 ---
-* step -2
+
+-   step -2
 
 create store:
 
@@ -76,8 +79,9 @@ create modal-provider.tsx and learn the logic about hydration and dyhydration
 learned : global reusable modal, uses global store
 
 ---
-* step -3
-  
+
+-   step -3
+
 Form, form validate:
 
 react-hook-form and zod
@@ -95,8 +99,9 @@ npx shadcn-ui@latest add input
 ```
 
 ---
-* step -4
-  
+
+-   step -4
+
 install prisma as a dev dependency
 
 ```bash
@@ -158,7 +163,7 @@ configure in root composition as well
 
 ### most important
 
-#### Tutorial link : to uderstand the project flow
+-   Tutorial link : to uderstand the project flow
 
 ```link
 https://youtu.be/5miHyP6lExg?t=6939
@@ -177,3 +182,30 @@ npx prisma db push
 rehydrations again.
 
 redirect to dashboard after creating a store
+
+---
+
+-   step -6 : Admin Navigation
+
+Create navbar component for admin dashboard. this will be a part of the dashboard layout.
+
+navigation implementation [ComboBox] from shadcn:
+
+```bash
+npx shadcn-ui@latest add popover
+
+npx shadcn-ui@latest add command
+```
+
+revise type and interface
+revise about 'use client'
+
+navbar store switcher find store functionality :
+
+Tutorial Link to understand:
+
+```link
+https://youtu.be/5miHyP6lExg?t=8597
+```
+
+feel the power of zustand store management and see how the modal is triggered from the navigation + Create Store Button
