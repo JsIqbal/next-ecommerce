@@ -219,7 +219,7 @@ feel the power of zustand store management and see how the modal is triggered fr
 
 ---
 
--   Step - 6 : part 1: Add the update settings for store
+-   Step - 7 : part 1: Add the update settings for store
 
 create settings folder inside dashboard organization and create a page for settings
 
