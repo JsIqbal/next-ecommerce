@@ -230,3 +230,13 @@ Understanding the flow inside settings-form.tsx:
 ```link
 https://youtu.be/5miHyP6lExg?t=10717
 ```
+
+---
+
+-   Step - 6 : part 2:
+
+To handle the settings form.
+
+we will create a dynamic route for the settings: link [storeId]
+we will create a route.ts file and then create 2 routes : path route for update button and delete route for delete store
+complete the update or PATCH function for the store settings
