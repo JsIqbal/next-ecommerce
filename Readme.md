@@ -240,3 +240,13 @@ To handle the settings form.
 we will create a dynamic route for the settings: link [storeId]
 we will create a route.ts file and then create 2 routes : path route for update button and delete route for delete store
 complete the update or PATCH function for the store settings
+
+---
+
+-   Step - 6 : part 3:
+
+To handle the settings form.
+
+we will create a dynamic route for the settings: link [storeId]
+we will create a route.ts file and then create 2 routes : path route for update button and delete route for delete store
+complete the delete function for the store settings
