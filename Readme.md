@@ -250,3 +250,31 @@ To handle the settings form.
 we will create a dynamic route for the settings: link [storeId]
 we will create a route.ts file and then create 2 routes : path route for update button and delete route for delete store
 complete the delete function for the store settings
+
+---
+
+-   Step - 6 : part 4:
+
+Alert message in the settings page.
+
+install alert:
+
+```bash
+npx shadcn-ui@latest add alert
+```
+
+create another component in ui named: api-alert.tsx
+
+see the file for more information
+
+install badge for the api-alert.tsx :
+
+```bash
+npx shadcn-ui@latest add badge
+```
+
+what is window object in client side? check out the use-origin.tsx in hooks folder
+
+Every single form is going to have this component
+
+Complete the Alert UI component and complete integration with Settings page
