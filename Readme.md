@@ -278,3 +278,26 @@ what is window object in client side? check out the use-origin.tsx in hooks fold
 Every single form is going to have this component
 
 Complete the Alert UI component and complete integration with Settings page
+
+-   step -7 part-1:
+
+Create second entity in prisma for Bilboards.
+
+reference :
+
+```link
+https://youtu.be/5miHyP6lExg?list=LL&t=13002
+```
+
+shut down application and
+
+```bash
+npx prisma generate
+npx prisma db push
+```
+
+create billboard folder, billboard components inside root
+
+-   step -7 part-2:
+
+Create and setup cloudinary in the project
