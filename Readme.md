@@ -301,3 +301,24 @@ create billboard folder, billboard components inside root
 -   step -7 part-2:
 
 Create and setup cloudinary in the project
+
+login to cloudinary and go to dashboard.
+
+install next cloudinary package in the project:
+
+```link
+https://next-cloudinary.spacejelly.dev/
+```
+
+follow the installation guide
+
+```bash
+npm install next-cloudinary
+```
+
+in [.env] :
+
+-   NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME="<Your Cloud Name>"
+-   get the cloud name from coudinary dashboard
+-   go to settings > upload > Add upload preset > sigining mode = unsigned
+-   copy the preset name
