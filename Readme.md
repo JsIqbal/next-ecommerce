@@ -322,3 +322,4 @@ in [.env] :
 -   get the cloud name from coudinary dashboard
 -   go to settings > upload > Add upload preset > sigining mode = unsigned
 -   copy the preset name
+-   complete image upload component
