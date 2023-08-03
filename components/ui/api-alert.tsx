@@ -1,11 +1,12 @@
 "use client";
 
-import { Copy, Server } from "lucide-react";
+import { CheckCheck, Copy, Server } from "lucide-react";
 import toast from "react-hot-toast";
 
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Badge, BadgeProps } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { useState } from "react";
 
 interface ApiAlertProps {
     title: string;
@@ -28,7 +29,13 @@ export const ApiAlert: React.FC<ApiAlertProps> = ({
     description,
     variant = "public",
 }) => {
+    const [check, setCheck] = useState(false);
+
     const onCopy = (description: string) => {
+        setCheck(true);
+        setTimeout(() => {
+            setCheck(false);
+        }, 500);
         navigator.clipboard.writeText(description);
 
         toast.success("API route copied successfully.");
@@ -49,7 +56,9 @@ export const ApiAlert: React.FC<ApiAlertProps> = ({
                     size="sm"
                     onClick={() => onCopy(description)}
                 >
-                    <Copy className="h-4 w-4" />
+                    {(!check && <Copy className="h-4 w-4" />) || (
+                        <CheckCheck className="h-4 w-4 text-green-500" />
+                    )}
                 </Button>
             </AlertDescription>
         </Alert>

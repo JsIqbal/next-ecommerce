@@ -24,9 +24,7 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { AlertModal } from "@/components/modals/alert-modal";
-import { ApiAlert } from "@/components/ui/api-alert";
 import { ImageUpload } from "@/components/ui/image-upload";
-import { url } from "inspector";
 
 const formSchema = z.object({
     label: z.string().min(1),
@@ -44,7 +42,6 @@ export const BillboardForm: React.FC<BillboardFormProps> = ({
 }) => {
     const params = useParams();
     const router = useRouter();
-    const origin = useOrigin();
 
     const title = initialData ? "Edit bilboard" : "Create bilboard";
     const description = initialData ? "Edit a bilboard" : "Add a new bilboard";
@@ -92,7 +89,7 @@ export const BillboardForm: React.FC<BillboardFormProps> = ({
                 `/api/${params.storeId}/billboards/${params.billboardId}`
             );
             router.refresh();
-            router.push("/");
+            router.push(`/${params.storeId}/billboards`);
 
             toast.success("Billboard deleted");
         } catch (err) {
@@ -182,7 +179,6 @@ export const BillboardForm: React.FC<BillboardFormProps> = ({
                     </Button>
                 </form>
             </Form>
-            <Separator />
         </>
     );
 };
