@@ -332,4 +332,4 @@ Use Shadcn UI table : npx shadcn-ui@latest add table
 table dependency: npm install @tanstack/react-table
 in order to convert date to string: npm i date-fns
 
-Modify table for : pagination & filtering
+Modify table for : pagination, filtering, cellActions
