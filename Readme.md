@@ -324,8 +324,12 @@ in [.env] :
 -   copy the preset name
 -   complete image upload component
 
+---
+
 -   step -8 part-1: Data Table
 
 Use Shadcn UI table : npx shadcn-ui@latest add table
 table dependency: npm install @tanstack/react-table
 in order to convert date to string: npm i date-fns
+
+Modify table for : pagination & filtering
