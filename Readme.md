@@ -326,10 +326,24 @@ in [.env] :
 
 ---
 
--   step -8 part-1: Data Table
+-   step -8: Data Table
 
 Use Shadcn UI table : npx shadcn-ui@latest add table
 table dependency: npm install @tanstack/react-table
 in order to convert date to string: npm i date-fns
 
 Modify table for : pagination, filtering, cellActions
+
+-   step -9: category entity
+    -   create Generator Model
+
+```bash
+npx prisma genrate
+npm prisma db push
+```
+
+reference:
+
+```link
+https://youtu.be/5miHyP6lExg?list=LL&t=19295
+```
