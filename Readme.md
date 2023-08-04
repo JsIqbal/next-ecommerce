@@ -347,3 +347,11 @@ reference:
 ```link
 https://youtu.be/5miHyP6lExg?list=LL&t=19295
 ```
+
+copy the entire billboard folder inside dashboard and modify it for categories.
+
+install select component for category selection:
+
+```bash
+npx shadcn-ui@latest add select
+```
