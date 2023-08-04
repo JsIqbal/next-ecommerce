@@ -356,4 +356,8 @@ install select component for category selection:
 npx shadcn-ui@latest add select
 ```
 
-complete category API and category controller from the billboard copy
+complete category API and category controller from the billboard copy:
+
+```code
+app > api > [storeId] > billboards -- billboards copy = categories
+```
