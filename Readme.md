@@ -355,3 +355,5 @@ install select component for category selection:
 ```bash
 npx shadcn-ui@latest add select
 ```
+
+complete category API and category controller from the billboard copy
