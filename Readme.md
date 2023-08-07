@@ -49,9 +49,9 @@ sign in to clerk documentation and add clerk to the project using this comand:
 npm install @clerk/nextjs
 ```
 
-add new file .env and paste the clerk authentification in there. make shure to gitignore the .env file
+add new file .env and paste the clerk authentification in there. make sure to gitignore the .env file
 
-create another file naded middleware.ts and paste the middleware from the clerk documentation page
+create another file named middleware.ts and paste the middleware from the clerk documentation page
 
 create organization routes inside the app folder and the routing system will be :
 
@@ -77,13 +77,13 @@ add zustand for state management:
 npm install zustand
 ```
 
-create the hooks/use-store-modal.tsx and configure the store for modal
+-   create the hooks/use-store-modal.tsx and configure the store for modal
 
-create providers folder in root to access any component or modal from anywhere the project
+-   create providers folder in root to access any component or modal from anywhere the project
 
-create modal-provider.tsx and learn the logic about hydration and dyhydration
+-   create modal-provider.tsx and learn the logic about hydration and dyhydration
 
-learned : global reusable modal, uses global store
+-   learned : global reusable modal, uses global store
 
 ---
 
@@ -124,15 +124,29 @@ npx prisma init
 
 create lib for prisma db
 
-setup planetscale
-sign in to planetscale and create a database and wait for initialization
-click connect to your database:
-connect to prisma and copy the .env file and paste it in database url
-copy the shema.prisma from the planetscale and paste it in schema.prisma
+-   setup planetscale
 
-configure the schema.prisma and create models
+-   sign in to planetscale
 
-generate the prisma models:
+-   create a database
+
+-   wait for initialization
+
+-   click connect to your database:
+
+-   connect to prisma
+
+-   copy the .env file
+
+-   paste it in database url
+
+-   copy the shema.prisma from the planetscale
+
+-   paste it in schema.prisma
+
+-   configure the schema.prisma and create models
+
+-   generate the prisma models:
 
 ```bash
 npx prisma generate
