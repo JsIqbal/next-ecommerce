@@ -190,7 +190,7 @@ configure in root organization as well
 https://youtu.be/5miHyP6lExg?t=6939
 ```
 
-delte the prisma database records:
+delete the prisma database records:
 
 ```bash
 npx prisma migrate reset
