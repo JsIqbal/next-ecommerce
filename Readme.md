@@ -375,3 +375,10 @@ complete category API and category controller from the billboard copy:
 ```code
 app > api > [storeId] > billboards -- billboards copy = categories
 ```
+
+---
+### Munab Documentation: 
+
+- Changed nothing
+
+
